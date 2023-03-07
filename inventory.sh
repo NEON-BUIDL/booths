@@ -1,15 +1,5 @@
 #!/bin/bash
 
-# Generate thumbnail images
-for glb_file in *.glb
-do
-  png_file="${glb_file%.*}.png"
-  if [ ! -f "$png_file" ]
-  then
-    convert -define png:exclude-chunks=date,time -thumbnail x200 -background white -gravity center -extent 200x200 "$glb_file" "$png_file"
-  fi
-done
-
 # Generate HTML gallery
 echo "<!DOCTYPE html>"
 echo "<html>"
@@ -31,10 +21,10 @@ echo "</style>"
 echo "</head>"
 echo "<body>"
 echo "<div class=\"gallery\">"
-for png_file in *.png
+for gif_file in *.gif
 do
-  glb_file="${png_file%.*}.glb"
-  echo "  <a href=\"$glb_file\">$glb_file</a>"
+  glb_file="${gif_file%.*}.glb"
+  echo "  <a href=\"$glb_file\"><img src=\"$gif_file\"></a>"
 done
 echo "</div>"
 echo "</body>"
