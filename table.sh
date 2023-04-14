@@ -1,5 +1,9 @@
 #!/bin/bash
 
+
+preview="$1"
+glb_file="$2"
+
 echo "| Preview | GLB |"
 echo "| ------- | --- |"
 
