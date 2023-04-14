@@ -22,7 +22,12 @@ def main():
 
     ## Change this later to be based on repo name
     print("# Booths", end="")
-    print()
+    print("[![Asset Pallet Generator](https://github.com/NEON-BUIDL/booths/actions/workflows/main.yml/badge.svg)](https://github.com/NEON-BUIDL/booths/actions/workflows/main.yml)")
+    print("Remixable 3D booth assets for showcasing your projects with")
+    print("\n")
+    print("Download templates: https://sketchfab.com/3d-models/remixable-booth-templates-d565cb7935744d6190b7d23b260e743b")
+    print("\n")
+
     print("|", end="")
     for i in range(size):
         print(f" {i + 1} |", end="")

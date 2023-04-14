@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Set up Node.js
       uses: actions/setup-node@v3
@@ -21,7 +21,6 @@ jobs:
       run: |
         chmod +x asset_pallet.sh
         ./asset_pallet.sh opti glb png 512 512
-
 
     - name: Update README
       run: |
