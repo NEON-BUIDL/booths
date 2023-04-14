@@ -1,0 +1,36 @@
+name: Asset Pallet Generator
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    - name: Install screenshot-glb
+      run: npm install --save @shopify/screenshot-glb
+
+    - name: Take screenshots and make pallet
+      run: |
+        chmod +x asset_pallet.sh
+        ./asset_pallet.sh opti glb png 512 512
+
+
+    - name: Update README
+      run: |
+        python table.py opti > README.md 
+
+    - name: Commit changes
+      run: |
+        git config --global user.name "madjin"
+        git config --global user.email "32600939+madjin@users.noreply.github.com"
+        git add .
+        git commit -m "Update READMEs"
+        git push

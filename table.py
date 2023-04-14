@@ -20,6 +20,9 @@ def main():
     count = len(pairs)
     size = int(math.sqrt(count))
 
+    ## Change this later to be based on repo name
+    print("# Booths", end="")
+    print()
     print("|", end="")
     for i in range(size):
         print(f" {i + 1} |", end="")
