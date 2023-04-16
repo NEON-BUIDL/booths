@@ -23,8 +23,8 @@ process_files() {
         # Store the directory path of the current file
         local output_dir=$(dirname "$file")
 
-        [[ -f "$dir/$base_filename.gif" ]] && skip_gif=true
-        [[ -f "$dir/$base_filename.png" ]] && skip_png=true
+        [[ -f "$output_dir/$base_filename.gif" ]] && skip_gif=true
+        [[ -f "$output_dir/$base_filename.png" ]] && skip_png=true
 
         # Process gif files
         if [[ $output_type == "gif" || $output_type == "both" ]]; then
