@@ -17,14 +17,26 @@ jobs:
     - name: Install screenshot-glb
       run: npm install --save @shopify/screenshot-glb
 
+    - name: Update pallet site
+      run: |
+        chmod +x scripts/generate_html_gallery.sh
+        ./scripts/generate_html_gallery.sh models --head > index.html
+
+
     - name: Take screenshots and make pallet
       run: |
-        chmod +x asset_pallet.sh
-        ./asset_pallet.sh opti glb png 512 512
+        chmod +x scripts/process_files.sh
+        ./scripts/process_files.sh models glb png 512 512
+        ./scripts/process_files.sh templates glb png 512 512
+        ./scripts/generate_html_gallery.sh models --body >> index.html
+        ./scripts/generate_html_gallery.sh templates --body --tail >> index.html
 
     - name: Update README
       run: |
-        python table.py opti > README.md 
+        python scripts/table.py --head > README.md
+        python scripts/table.py models >> README.md
+        python scripts/table.py templates >> README.md
+      
 
     - name: Commit changes
       run: |
