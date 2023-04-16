@@ -5,11 +5,9 @@ from pathlib import Path
 
 def main():
     if "--head" in sys.argv:
-        print("# Asset Pallet\n")
-        print("[![Asset Pallet Generator](https://github.com/madjin/asset-pallet/actions/workflows/main.yml/badge.svg)](https://github.com/madjin/asset-pallet/actions/workflows/main.yml)\n")
+        print("# Booths\n")
+        print("[![Asset Pallet Generator](https://github.com/neon-buidl/booths/actions/workflows/main.yml/badge.svg)](https://github.com/neon-buidl/booths/actions/workflows/main.yml)\n")
         print("Download templates: https://sketchfab.com/3d-models/remixable-booth-templates-d565cb7935744d6190b7d23b260e743b\n")
-        print("\n")
-        print("To use this, you must fork the repo then add your assets into the models folder. You can replace anything that's already in there. Important: you must go to GitHub settings and allow for action runners to commit stuff to repo and edit the config with your info if you want to use this properly with github pages.")
         print("\n")
         sys.exit(0)
 
