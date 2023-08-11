@@ -1,0 +1,79 @@
+{
+  "prefab": "",
+  "src": {
+    "name": "bulldozer.glb",
+    "url": "https://data.hyperfy.xyz/uploads/255c3e832ffa1db05885716d3efd1bd0c5692537ea544e15d8a408268d49dbe1.glb"
+  },
+  "size": [
+    3.7,
+    3.6,
+    7.8
+  ],
+  "centerOfMass": [
+    0,
+    0,
+    0
+  ],
+  "drag": 0.3,
+  "angularDrag": 2.6,
+  "accelAmount": 2.2,
+  "decelAmount": 0.7,
+  "brakeAmount": 2.9,
+  "speedMax": 9.5,
+  "powerCurve": "0,1,0,0|1,1,0,0",
+  "turnSpeed": 5.9,
+  "turnMax": 30.8,
+  "turnCurve": "0,1,0,0|1,0.349,0,0",
+  "antiRoll": 50,
+  "forwardSlip": 5,
+  "mode": "4WD",
+  "engineSound": true,
+  "frontZ": -1.56,
+  "frontY": 0.4,
+  "frontWidth": 2.7,
+  "frontSpringLength": 0.5,
+  "frontSpringStrength": 20,
+  "frontSpringDamper": 4,
+  "frontTireRadius": 0.8,
+  "frontGripCurve": "0,0.600,0,0|0.525,0.451,-0.478,-0.647|1,0.274,0,0",
+  "frontBrake": false,
+  "frontBrakeGrip": 0.2,
+  "backZ": 2.4,
+  "backY": 0.4,
+  "backWidth": 2.7,
+  "backSpringLength": 0.5,
+  "backSpringStrength": 20,
+  "backSpringDamper": 4,
+  "backTireRadius": 0.6,
+  "backGripCurve": "0,0.580,0,0|0.548,0.411,-0.462,-0.749|1,0.226,0,0",
+  "backBrake": true,
+  "backBrakeGrip": 0.2,
+  "seat1Enabled": true,
+  "seat1Position": [
+    -0.38,
+    0.3,
+    -0.2
+  ],
+  "seat1RotationY": 0,
+  "seat2Enabled": true,
+  "seat2Position": [
+    0.38,
+    0.3,
+    -0.2
+  ],
+  "seat2RotationY": 0,
+  "seat3Enabled": false,
+  "seat3Position": [
+    0,
+    0,
+    0
+  ],
+  "seat3RotationY": 0,
+  "seat4Enabled": false,
+  "seat4Position": [
+    0,
+    0,
+    0
+  ],
+  "seat4RotationY": 0
+}

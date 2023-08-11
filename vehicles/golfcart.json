@@ -1,0 +1,79 @@
+{
+  "prefab": "",
+  "src": {
+    "name": "GOLFCART.glb",
+    "url": "https://data.hyperfy.xyz/uploads/826509b61db40c5aa1853e77c4b3a7f417ae8b2b866b990f4c4209a83fe6f6ce.glb"
+  },
+  "size": [
+    1.5,
+    2,
+    4.1
+  ],
+  "centerOfMass": [
+    0,
+    -0.1,
+    0
+  ],
+  "drag": 0.3,
+  "angularDrag": 3,
+  "accelAmount": 9.5,
+  "decelAmount": 3,
+  "brakeAmount": 5,
+  "speedMax": 30,
+  "powerCurve": "0,0.417,0,0|1,1,0,0",
+  "turnSpeed": 8,
+  "turnMax": 35,
+  "turnCurve": "0,1,0,0|1,0.349,0,0",
+  "antiRoll": 50,
+  "forwardSlip": 0,
+  "mode": "FWD",
+  "frontZ": -1.75,
+  "frontY": 0.22,
+  "frontWidth": 1.45,
+  "frontSpringLength": 0.4,
+  "frontSpringStrength": 50,
+  "frontSpringDamper": 3,
+  "frontTireRadius": 0.3,
+  "frontGripCurve": "0,0.600,0,0|0.525,0.451,-0.478,-0.647|1,0.274,0,0",
+  "frontBrake": false,
+  "backZ": 1.45,
+  "backY": 0.22,
+  "backWidth": 1.45,
+  "backSpringLength": 0.4,
+  "backSpringStrength": 50,
+  "backSpringDamper": 3,
+  "backTireRadius": 0.3,
+  "backGripCurve": "0,0.580,0,0|0.548,0.411,-0.462,-0.749|1,0.226,0,0",
+  "backBrake": true,
+  "seat1Enabled": true,
+  "seat1Position": [
+    -0.4,
+    0.55,
+    -0.35
+  ],
+  "seat1RotationY": 0,
+  "seat2Enabled": true,
+  "seat2Position": [
+    0.4,
+    0.55,
+    -0.35
+  ],
+  "seat2RotationY": 0,
+  "seat3Enabled": true,
+  "seat3Position": [
+    -0.4,
+    0.55,
+    0.75
+  ],
+  "seat3RotationY": 0,
+  "engineSound": false,
+  "frontBrakeGrip": 0.2,
+  "backBrakeGrip": 0.2,
+  "seat4Enabled": true,
+  "seat4Position": [
+    0.4,
+    0.55,
+    0.75
+  ],
+  "seat4RotationY": 0
+}

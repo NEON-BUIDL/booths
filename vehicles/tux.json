@@ -1,0 +1,79 @@
+{
+  "prefab": "",
+  "src": {
+    "name": "linux_vehicle.glb",
+    "url": "https://data.hyperfy.xyz/uploads/2dbcf4ca789c76becb68dac9c404dec56b1046bd20c621ce40e1c68bc92fdd65.glb"
+  },
+  "size": [
+    4.4,
+    11.1,
+    4.3
+  ],
+  "centerOfMass": [
+    0,
+    0.2,
+    0
+  ],
+  "drag": 0.3,
+  "angularDrag": 3,
+  "accelAmount": 5,
+  "decelAmount": 3,
+  "brakeAmount": 5,
+  "speedMax": 30,
+  "powerCurve": "0,1,0,0|1,1,0,0",
+  "turnSpeed": 8,
+  "turnMax": 35,
+  "turnCurve": "0,1,0,0|1,0.349,0,0",
+  "antiRoll": 50,
+  "forwardSlip": 5,
+  "mode": "4WD",
+  "engineSound": true,
+  "frontZ": -1.56,
+  "frontY": 0.2,
+  "frontWidth": 1.8,
+  "frontSpringLength": 0.5,
+  "frontSpringStrength": 20,
+  "frontSpringDamper": 4,
+  "frontTireRadius": 0.44,
+  "frontGripCurve": "0,0.600,0,0|0.525,0.451,-0.478,-0.647|1,0.274,0,0",
+  "frontBrake": false,
+  "frontBrakeGrip": 0.2,
+  "backZ": 1.4,
+  "backY": 0.2,
+  "backWidth": 1.8,
+  "backSpringLength": 0.5,
+  "backSpringStrength": 20,
+  "backSpringDamper": 4,
+  "backTireRadius": 0.45,
+  "backGripCurve": "0,0.580,0,0|0.548,0.411,-0.462,-0.749|1,0.226,0,0",
+  "backBrake": true,
+  "backBrakeGrip": 0.2,
+  "seat1Enabled": true,
+  "seat1Position": [
+    0.02,
+    11.6,
+    -0.8
+  ],
+  "seat1RotationY": 0,
+  "seat2Enabled": true,
+  "seat2Position": [
+    0.38,
+    0.3,
+    -0.2
+  ],
+  "seat2RotationY": 0,
+  "seat3Enabled": false,
+  "seat3Position": [
+    0,
+    0,
+    0
+  ],
+  "seat3RotationY": 0,
+  "seat4Enabled": false,
+  "seat4Position": [
+    0,
+    0,
+    0
+  ],
+  "seat4RotationY": 0
+}
