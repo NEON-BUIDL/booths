@@ -1,0 +1,79 @@
+{
+  "prefab": "",
+  "size": [
+    0.5,
+    0.7,
+    0.7
+  ],
+  "centerOfMass": [
+    0,
+    0.2,
+    0
+  ],
+  "drag": 0.3,
+  "angularDrag": 3,
+  "accelAmount": 1.5,
+  "decelAmount": 0.5,
+  "brakeAmount": 5,
+  "speedMax": 6.5,
+  "powerCurve": "0,1,0,0|1,1,0,0",
+  "turnSpeed": 8,
+  "turnMax": 35,
+  "turnCurve": "0,1,0,0|1,0.349,0,0",
+  "antiRoll": 50,
+  "forwardSlip": 5,
+  "mode": "4WD",
+  "engineSound": false,
+  "frontZ": -0.36,
+  "frontY": 0.4,
+  "frontWidth": 0.6,
+  "frontSpringLength": 0.5,
+  "frontSpringStrength": 20,
+  "frontSpringDamper": 4,
+  "frontTireRadius": 0.1,
+  "frontGripCurve": "0,0.600,0,0|0.525,0.451,-0.478,-0.647|1,0.274,0,0",
+  "frontBrake": false,
+  "frontBrakeGrip": 0.2,
+  "backZ": 0.3,
+  "backY": 0.4,
+  "backWidth": 0.6,
+  "backSpringLength": 0.5,
+  "backSpringStrength": 20,
+  "backSpringDamper": 4,
+  "backTireRadius": 0.1,
+  "backGripCurve": "0,0.580,0,0|0.548,0.411,-0.462,-0.749|1,0.226,0,0",
+  "backBrake": true,
+  "backBrakeGrip": 0.2,
+  "seat1Enabled": true,
+  "seat1Position": [
+    0.02,
+    0.7,
+    0.1
+  ],
+  "seat1RotationY": 0,
+  "seat2Enabled": true,
+  "seat2Position": [
+    0.38,
+    0.3,
+    -0.2
+  ],
+  "seat2RotationY": 0,
+  "seat3Enabled": false,
+  "seat3Position": [
+    0,
+    0,
+    0
+  ],
+  "seat3RotationY": 0,
+  "seat4Enabled": false,
+  "seat4Position": [
+    0,
+    0,
+    0
+  ],
+  "seat4RotationY": 0,
+  "src": {
+    "name": "snoggles4.glb",
+    "url": "https://data.hyperfy.xyz/uploads/7b8668c5352014c0f4387c42950cfd122f9c75d611f0ab454ecef1a2c5cc9846.glb"
+  }
+}
