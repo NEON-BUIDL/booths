@@ -1,5 +1,5 @@
 {
-  "prefab": "",
+  "prefab": "Snoggles",
   "size": [
     0.5,
     0.7,
@@ -75,5 +75,6 @@
   "src": {
     "name": "snoggles4.glb",
     "url": "https://data.hyperfy.xyz/uploads/7b8668c5352014c0f4387c42950cfd122f9c75d611f0ab454ecef1a2c5cc9846.glb"
-  }
+  },
+  "reset": null
 }
