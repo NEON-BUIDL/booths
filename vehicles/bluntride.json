@@ -1,0 +1,80 @@
+{
+  "prefab": "",
+  "src": {
+    "name": "blunt4.glb",
+    "url": "https://data.hyperfy.xyz/uploads/62ee528da79323f31dd452f202c342c2521369222474678a40621bbaa675ce93.glb"
+  },
+  "size": [
+    0.5,
+    0.3,
+    4
+  ],
+  "centerOfMass": [
+    0,
+    -0.4,
+    0
+  ],
+  "drag": 0.3,
+  "angularDrag": 1.9,
+  "accelAmount": 1.7,
+  "decelAmount": 1.1,
+  "brakeAmount": 5,
+  "speedMax": 9.9,
+  "powerCurve": "0,1,0,-1.725|1,1,0,0",
+  "turnSpeed": 8,
+  "turnMax": 35,
+  "turnCurve": "0,1,0,0|0.800,0.234,0,0|1,0.349,0,0",
+  "antiRoll": 50,
+  "forwardSlip": 5,
+  "mode": "4WD",
+  "engineSound": false,
+  "frontZ": -0.56,
+  "frontY": 0.2,
+  "frontWidth": 0,
+  "frontSpringLength": 0.5,
+  "frontSpringStrength": 20,
+  "frontSpringDamper": 4,
+  "frontTireRadius": 0.54,
+  "frontGripCurve": "0,0.600,0,0|0.525,0.451,-0.478,-0.647|1,0.274,0,0",
+  "frontBrake": false,
+  "frontBrakeGrip": 0.2,
+  "backZ": 1.7,
+  "backY": 0.2,
+  "backWidth": 0,
+  "backSpringLength": 0.5,
+  "backSpringStrength": 20,
+  "backSpringDamper": 4,
+  "backTireRadius": 0.25,
+  "backGripCurve": "0,0.580,0,-1.401|0.116,0.489,0,0|0.301,0.200,0,0|0.548,0.411,-0.323,-1.276|1,0.226,0,0",
+  "backBrake": true,
+  "backBrakeGrip": 0.1,
+  "seat1Enabled": true,
+  "seat1Position": [
+    0.02,
+    0.3,
+    -0.8
+  ],
+  "seat1RotationY": 0,
+  "seat2Enabled": true,
+  "seat2Position": [
+    0.38,
+    0.3,
+    -0.2
+  ],
+  "seat2RotationY": 0,
+  "seat3Enabled": false,
+  "seat3Position": [
+    0,
+    0,
+    0
+  ],
+  "seat3RotationY": 0,
+  "seat4Enabled": false,
+  "seat4Position": [
+    0,
+    0,
+    0
+  ],
+  "seat4RotationY": 0,
+  "reset": null
+}
