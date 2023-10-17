@@ -1,0 +1,80 @@
+{
+  "prefab": "",
+  "reset": null,
+  "src": {
+    "name": "WagieCagie3.glb",
+    "url": "https://data.hyperfy.xyz/uploads/c3bf7a815170c1dd97e178ffdeb7c17adfab05cc187848949e4040983c68f248.glb"
+  },
+  "size": [
+    1.4,
+    3.3,
+    1.2
+  ],
+  "centerOfMass": [
+    0,
+    0,
+    0
+  ],
+  "drag": 0.3,
+  "angularDrag": 3,
+  "accelAmount": 1,
+  "decelAmount": 0.5,
+  "brakeAmount": 2,
+  "speedMax": 10,
+  "powerCurve": "0,1,0,0|1,1,0,0",
+  "turnSpeed": 5,
+  "turnMax": 90,
+  "turnCurve": "0,1,0,0|1,0.349,0,0",
+  "antiRoll": 50,
+  "forwardSlip": 5,
+  "mode": "4WD",
+  "engineSound": false,
+  "frontZ": -0.4,
+  "frontY": 0.5,
+  "frontWidth": 0.7,
+  "frontSpringLength": 0.5,
+  "frontSpringStrength": 20,
+  "frontSpringDamper": 4,
+  "frontTireRadius": 0.15,
+  "frontGripCurve": "0,0.600,0,0|0.525,0.451,-0.478,-0.647|1,0.274,0,0",
+  "frontBrake": false,
+  "frontBrakeGrip": 0.2,
+  "backZ": 0.4,
+  "backY": 0.5,
+  "backWidth": 0.7,
+  "backSpringLength": 0.5,
+  "backSpringStrength": 20,
+  "backSpringDamper": 4,
+  "backTireRadius": 0.15,
+  "backGripCurve": "0,0.580,0,0|0.548,0.411,-0.462,-0.749|1,0.226,0,0",
+  "backBrake": true,
+  "backBrakeGrip": 0.2,
+  "seat1Enabled": true,
+  "seat1Position": [
+    0.1,
+    1.37,
+    0.2
+  ],
+  "seat1RotationY": 0,
+  "seat2Enabled": true,
+  "seat2Position": [
+    0.38,
+    0.27,
+    0.5
+  ],
+  "seat2RotationY": 0,
+  "seat3Enabled": false,
+  "seat3Position": [
+    0,
+    0,
+    0
+  ],
+  "seat3RotationY": 0,
+  "seat4Enabled": false,
+  "seat4Position": [
+    0,
+    0,
+    0
+  ],
+  "seat4RotationY": 0
+}
