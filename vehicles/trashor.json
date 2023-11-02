@@ -1,0 +1,80 @@
+{
+"prefab": "",
+"reset": null,
+"src": {
+"name": "TrashorBlack.glb",
+"url": "https://data.hyperfy.xyz/uploads/5a533624283d05c94b106a4ee24e5ebfe10afa2d1fe742c4f5b96cd9fb67746f.glb"
+},
+"size": [
+1.1,
+1.6,
+0.6
+],
+"centerOfMass": [
+0,
+0,
+0
+],
+"drag": 0.3,
+"angularDrag": 3,
+"accelAmount": 1.3,
+"decelAmount": 0.25,
+"brakeAmount": 2,
+"speedMax": 30,
+"powerCurve": "0,1,0,0|1,1,0,0",
+"turnSpeed": 50,
+"turnMax": 90,
+"turnCurve": "0,1,0,0|1,0.349,0,0",
+"antiRoll": 50,
+"forwardSlip": 5,
+"mode": "4WD",
+"engineSound": false,
+"frontZ": -0.7,
+"frontY": 0.5,
+"frontWidth": 0.5,
+"frontSpringLength": 0.5,
+"frontSpringStrength": 10,
+"frontSpringDamper": 4,
+"frontTireRadius": 0.2,
+"frontGripCurve": "0,0.600,0,0|0.525,0.451,-0.478,-0.647|1,0.274,0,0",
+"frontBrake": false,
+"frontBrakeGrip": 0.2,
+"backZ": 0,
+"backY": 0.45,
+"backWidth": 1.2,
+"backSpringLength": 0.5,
+"backSpringStrength": 20,
+"backSpringDamper": 4,
+"backTireRadius": 0.35,
+"backGripCurve": "0,0.580,0,0|0.548,0.411,-0.462,-0.749|1,0.226,0,0",
+"backBrake": true,
+"backBrakeGrip": 0.2,
+"seat1Enabled": true,
+"seat1Position": [
+0,
+1.75,
+0
+],
+"seat1RotationY": 0,
+"seat2Enabled": true,
+"seat2Position": [
+-0.02,
+4.47,
+-1
+],
+"seat2RotationY": 0,
+"seat3Enabled": false,
+"seat3Position": [
+0,
+0,
+0
+],
+"seat3RotationY": 0,
+"seat4Enabled": false,
+"seat4Position": [
+0,
+0,
+0
+],
+"seat4RotationY": 0
+}
