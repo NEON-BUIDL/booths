@@ -1,0 +1,80 @@
+{
+"prefab": "",
+"reset": null,
+"src": {
+"name": "MonsterTruck_JPEG_Fix.glb",
+"url": "https://data.hyperfy.xyz/uploads/ad964a235ba6ec9d99bbe93b9bc8a64f42f43f6da7e2574e6a80bb8fb7339372.glb"
+},
+"size": [
+2.3,
+2.7,
+5.9
+],
+"centerOfMass": [
+0,
+0,
+-0.6
+],
+"drag": 0.3,
+"angularDrag": 3,
+"accelAmount": 5,
+"decelAmount": 5,
+"brakeAmount": 10,
+"speedMax": 60,
+"powerCurve": "0,1,0,0|1,1,0,0",
+"turnSpeed": 2,
+"turnMax": 33,
+"turnCurve": "0,1,0,0|1,0.349,0,0",
+"antiRoll": 50,
+"forwardSlip": 5,
+"mode": "4WD",
+"engineSound": false,
+"frontZ": -2.6,
+"frontY": 0.3,
+"frontWidth": 3.8,
+"frontSpringLength": 0.8,
+"frontSpringStrength": 5,
+"frontSpringDamper": 3,
+"frontTireRadius": 1.25,
+"frontGripCurve": "0,0.600,0,0|0.525,0.451,-0.478,-0.647|1,0.274,0,0",
+"frontBrake": false,
+"frontBrakeGrip": 0.2,
+"backZ": 1.9,
+"backY": 0.3,
+"backWidth": 3.8,
+"backSpringLength": 0.8,
+"backSpringStrength": 5,
+"backSpringDamper": 3,
+"backTireRadius": 1.25,
+"backGripCurve": "0,0.580,0,0|0.548,0.411,-0.462,-0.749|1,0.226,0,0",
+"backBrake": true,
+"backBrakeGrip": 0.2,
+"seat1Enabled": true,
+"seat1Position": [
+-0.6,
+1.87,
+-0.7
+],
+"seat1RotationY": 0,
+"seat2Enabled": true,
+"seat2Position": [
+0.38,
+0.87,
+0
+],
+"seat2RotationY": 0,
+"seat3Enabled": false,
+"seat3Position": [
+0,
+0,
+0
+],
+"seat3RotationY": 0,
+"seat4Enabled": false,
+"seat4Position": [
+0,
+0,
+0
+],
+"seat4RotationY": 0
+}
