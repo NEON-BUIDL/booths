@@ -16,10 +16,10 @@
   ],
   "drag": 0.3,
   "angularDrag": 1.9,
-  "accelAmount": 1.7,
+  "accelAmount": 2.2,
   "decelAmount": 1.1,
-  "brakeAmount": 5,
-  "speedMax": 9.9,
+  "brakeAmount": -3,
+  "speedMax": 4.3,
   "powerCurve": "0,1,0,-1.725|1,1,0,0",
   "turnSpeed": 8,
   "turnMax": 35,
@@ -57,18 +57,18 @@
   "seat1RotationY": 0,
   "seat2Enabled": true,
   "seat2Position": [
-    0.38,
+    -0.12,
     0.3,
-    -0.2
+    0.3
   ],
-  "seat2RotationY": 0,
-  "seat3Enabled": false,
+  "seat2RotationY": 1,
+  "seat3Enabled": true,
   "seat3Position": [
     0,
-    0,
-    0
+    0.3,
+    1.2
   ],
-  "seat3RotationY": 0,
+  "seat3RotationY": -3.9,
   "seat4Enabled": false,
   "seat4Position": [
     0,
@@ -76,5 +76,6 @@
     0
   ],
   "seat4RotationY": 0,
-  "reset": null
+  "reset": 15,
+  "label": "Blunt"
 }
