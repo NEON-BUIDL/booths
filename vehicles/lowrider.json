@@ -1,0 +1,80 @@
+{
+  "prefab": "",
+  "reset": null,
+  "src": {
+    "name": "lowrider2.glb",
+    "url": "https://data.hyperfy.xyz/uploads/87582e8f641a53b79025c8307875ccedbb98ae1b6c23a2922a94f50d280be56c.glb"
+  },
+  "size": [
+    1.9,
+    1.3,
+    4.3
+  ],
+  "centerOfMass": [
+    0,
+    -1,
+    0
+  ],
+  "drag": 0.5,
+  "angularDrag": 3,
+  "accelAmount": 3,
+  "decelAmount": 3,
+  "brakeAmount": 2,
+  "speedMax": 5,
+  "powerCurve": "0,0.226,0,-0.352|1,1,0,0",
+  "turnSpeed": 8,
+  "turnMax": 35,
+  "turnCurve": "0,1,0,0|1,0.349,0,0",
+  "antiRoll": 50,
+  "forwardSlip": 5,
+  "mode": "RWD",
+  "engineSound": true,
+  "frontZ": -2.06,
+  "frontY": 0.2,
+  "frontWidth": 2.3,
+  "frontSpringLength": 0.5,
+  "frontSpringStrength": 20,
+  "frontSpringDamper": 0.5,
+  "frontTireRadius": 0.65,
+  "frontGripCurve": "0,0.600,0,0|0.525,0.451,-0.478,-0.647|1,0.274,0,0",
+  "frontBrake": false,
+  "frontBrakeGrip": 0.2,
+  "backZ": 2,
+  "backY": 0.3,
+  "backWidth": 2.6,
+  "backSpringLength": 0.5,
+  "backSpringStrength": 20,
+  "backSpringDamper": 4,
+  "backTireRadius": 0.65,
+  "backGripCurve": "0,0.580,0,0|0.548,0.411,-0.462,-0.749|1,0.226,0,0",
+  "backBrake": true,
+  "backBrakeGrip": 0.2,
+  "seat1Enabled": true,
+  "seat1Position": [
+    -0.48,
+    1,
+    0.1
+  ],
+  "seat1RotationY": 0,
+  "seat2Enabled": false,
+  "seat2Position": [
+    0.68,
+    0.6,
+    -0.9
+  ],
+  "seat2RotationY": -0.1,
+  "seat3Enabled": false,
+  "seat3Position": [
+    0,
+    0,
+    0
+  ],
+  "seat3RotationY": 0,
+  "seat4Enabled": false,
+  "seat4Position": [
+    0,
+    0,
+    0
+  ],
+  "seat4RotationY": 0
+}
