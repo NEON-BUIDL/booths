@@ -1,0 +1,80 @@
+{
+  "prefab": "",
+  "reset": null,
+  "src": {
+    "name": "copcar.glb",
+    "url": "https://data.hyperfy.xyz/uploads/380a4529368c3f9a7fa36135e4439494f5ded50f9e6e47ea3a8134da1bec30a7.glb"
+  },
+  "size": [
+    2.6,
+    1.3,
+    6.9
+  ],
+  "centerOfMass": [
+    0,
+    0.2,
+    0
+  ],
+  "drag": 0.3,
+  "angularDrag": 3,
+  "accelAmount": 5,
+  "decelAmount": 3,
+  "brakeAmount": 5,
+  "speedMax": 30,
+  "powerCurve": "0,1,0,0|1,1,0,0",
+  "turnSpeed": 8,
+  "turnMax": 35,
+  "turnCurve": "0,1,0,0|1,0.349,0,0",
+  "antiRoll": 50,
+  "forwardSlip": 5,
+  "mode": "4WD",
+  "engineSound": true,
+  "frontZ": -2.56,
+  "frontY": 0.4,
+  "frontWidth": 2.2,
+  "frontSpringLength": 0.5,
+  "frontSpringStrength": 20,
+  "frontSpringDamper": 4,
+  "frontTireRadius": 0.5,
+  "frontGripCurve": "0,0.600,0,0|0.525,0.451,-0.478,-0.647|1,0.274,0,0",
+  "frontBrake": false,
+  "frontBrakeGrip": 0.2,
+  "backZ": 1.7,
+  "backY": 0.3,
+  "backWidth": 2.2,
+  "backSpringLength": 0.5,
+  "backSpringStrength": 20,
+  "backSpringDamper": 4,
+  "backTireRadius": 0.5,
+  "backGripCurve": "0,0.580,0,0|0.548,0.411,-0.462,-0.749|1,0.226,0,0",
+  "backBrake": true,
+  "backBrakeGrip": 0.2,
+  "seat1Enabled": true,
+  "seat1Position": [
+    -0.38,
+    0.3,
+    -0.2
+  ],
+  "seat1RotationY": 0,
+  "seat2Enabled": true,
+  "seat2Position": [
+    0.38,
+    0.3,
+    -0.2
+  ],
+  "seat2RotationY": 0,
+  "seat3Enabled": false,
+  "seat3Position": [
+    0,
+    0,
+    0
+  ],
+  "seat3RotationY": 0,
+  "seat4Enabled": false,
+  "seat4Position": [
+    0,
+    0,
+    0
+  ],
+  "seat4RotationY": 0
+}
