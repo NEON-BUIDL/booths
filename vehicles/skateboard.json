@@ -1,0 +1,81 @@
+{
+  "prefab": "",
+  "reset": null,
+  "size": [
+    0.5,
+    0.1,
+    1.7
+  ],
+  "centerOfMass": [
+    0,
+    0,
+    0
+  ],
+  "drag": 0.3,
+  "angularDrag": 2,
+  "accelAmount": 7,
+  "decelAmount": 3,
+  "brakeAmount": 5,
+  "speedMax": 40,
+  "powerCurve": "0,1,0,0|1,1,0,0",
+  "turnSpeed": 50,
+  "turnMax": 20,
+  "turnCurve": "0,1,0,0|1,0.349,0,0",
+  "antiRoll": 100,
+  "forwardSlip": 0,
+  "mode": "RWD",
+  "engineSound": false,
+  "frontZ": -0.6,
+  "frontY": 0.35,
+  "frontWidth": 0.45,
+  "frontSpringLength": 0.5,
+  "frontSpringStrength": 100,
+  "frontSpringDamper": 10,
+  "frontTireRadius": 0.13,
+  "frontGripCurve": "0,0.600,0,0|0.525,0.451,-0.478,-0.647|1,0.274,0,0",
+  "frontBrake": false,
+  "frontBrakeGrip": 0.2,
+  "backZ": 0.72,
+  "backY": 0.35,
+  "backWidth": 0.45,
+  "backSpringLength": 0.5,
+  "backSpringStrength": 100,
+  "backSpringDamper": 10,
+  "backTireRadius": 0.13,
+  "backGripCurve": "0,0.580,0,0|0.548,0.411,-0.462,-0.749|1,0.226,0,0",
+  "backBrake": true,
+  "backBrakeGrip": 0.2,
+  "seat1Enabled": true,
+  "seat1Position": [
+    0.02,
+    0.2,
+    0.5
+  ],
+  "seat1RotationY": 0,
+  "seat2Enabled": true,
+  "seat2Position": [
+    0.58,
+    0.8,
+    -0.2
+  ],
+  "seat2RotationY": -0.4,
+  "seat3Enabled": true,
+  "seat3Position": [
+    -0.38,
+    0.8,
+    1.4
+  ],
+  "seat3RotationY": 1.6,
+  "seat4Enabled": true,
+  "seat4Position": [
+    0.42,
+    0.8,
+    2.2
+  ],
+  "seat4RotationY": -1.5,
+  "label": "Skateboard",
+  "src": {
+    "name": "skareboard_regular.glb",
+    "url": "https://data.hyperfy.xyz/uploads/431126de1d601185c53b6cd4f7655c604a58bf92ef8442736df6236e5d486b83.glb"
+  }
+}
