@@ -1,0 +1,83 @@
+{
+  "prefab": "",
+  "reset": null,
+  "$onenter": [],
+  "$onexit": [],
+  "size": [
+    2,
+    1.8,
+    5.3
+  ],
+  "centerOfMass": [
+    0,
+    0.2,
+    0
+  ],
+  "drag": 0.3,
+  "angularDrag": 3,
+  "accelAmount": 11.8,
+  "decelAmount": 3,
+  "brakeAmount": 5,
+  "speedMax": 87.9,
+  "powerCurve": "0,1,0,0|1,1,0,0",
+  "turnSpeed": 19.8,
+  "turnMax": 98.3,
+  "turnCurve": "0,1,0,0|1,0.349,0,0",
+  "antiRoll": 50,
+  "forwardSlip": 5,
+  "mode": "4WD",
+  "engineSound": true,
+  "frontZ": -1.56,
+  "frontY": 0.8,
+  "frontWidth": 0.8,
+  "frontSpringLength": 0.5,
+  "frontSpringStrength": 20,
+  "frontSpringDamper": 4,
+  "frontTireRadius": 0.24,
+  "frontGripCurve": "0,0.600,0,0|0.525,0.451,-0.478,-0.647|1,0.274,0,0",
+  "frontBrake": false,
+  "frontBrakeGrip": 0.2,
+  "backZ": 1.26,
+  "backY": 0.8,
+  "backWidth": 1.3,
+  "backSpringLength": 0.5,
+  "backSpringStrength": 20,
+  "backSpringDamper": 4,
+  "backTireRadius": 0.35,
+  "backGripCurve": "0,0.580,0,0|0.548,0.411,-0.462,-0.749|1,0.226,0,0",
+  "backBrake": true,
+  "backBrakeGrip": 0.2,
+  "seat1Enabled": true,
+  "seat1Position": [
+    0.02,
+    0.75,
+    0.1
+  ],
+  "seat1RotationY": 0,
+  "seat2Enabled": true,
+  "seat2Position": [
+    0.38,
+    0.5,
+    -0.2
+  ],
+  "seat2RotationY": 0,
+  "seat3Enabled": false,
+  "seat3Position": [
+    0,
+    0,
+    0
+  ],
+  "seat3RotationY": 0,
+  "seat4Enabled": false,
+  "seat4Position": [
+    0,
+    0,
+    0
+  ],
+  "seat4RotationY": 0,
+  "label": "hpos car",
+  "src": {
+    "name": "hpos10i-car-single_5.glb",
+    "url": "https://data.hyperfy.xyz/uploads/90c43330450813a2619ceb685ddf379fe935cfe8f1a229f011187dd66f194190.glb"
+  }
+}
