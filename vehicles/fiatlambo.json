@@ -1,0 +1,79 @@
+{
+  "prefab": "",
+  "src": {
+    "name": "lambo_fiatdiamond.glb",
+    "url": "https://data.hyperfy.xyz/uploads/a0cd1f4e18a78c83e031b9d08d3f42b7fb56c4a4c44b85dce9ce77197b9e98c8.glb"
+  },
+  "size": [
+    1.8,
+    1.2,
+    4.8
+  ],
+  "centerOfMass": [
+    0,
+    0.2,
+    0.4
+  ],
+  "drag": 0.3,
+  "angularDrag": 3,
+  "accelAmount": 10.3,
+  "decelAmount": 3,
+  "brakeAmount": 5,
+  "speedMax": 49.1,
+  "powerCurve": "0,1,0,0|1,1,0,0",
+  "turnSpeed": 10.1,
+  "turnMax": 35,
+  "turnCurve": "0,1,0,0|1,0.349,0,0",
+  "antiRoll": 50,
+  "forwardSlip": 5,
+  "mode": "4WD",
+  "engineSound": true,
+  "frontZ": -1.8,
+  "frontY": 0.8,
+  "frontWidth": 2,
+  "frontSpringLength": 0.5,
+  "frontSpringStrength": 20,
+  "frontSpringDamper": 4,
+  "frontTireRadius": 0.44,
+  "frontGripCurve": "0,0.600,0,0|0.525,0.451,-0.478,-0.647|1,0.274,0,0",
+  "frontBrake": false,
+  "frontBrakeGrip": 0.2,
+  "backZ": 1.6,
+  "backY": 0.8,
+  "backWidth": 2,
+  "backSpringLength": 0.5,
+  "backSpringStrength": 20,
+  "backSpringDamper": 4,
+  "backTireRadius": 0.45,
+  "backGripCurve": "0,0.580,0,0|0.548,0.411,-0.462,-0.749|1,0.226,0,0",
+  "backBrake": true,
+  "backBrakeGrip": 0.2,
+  "seat1Enabled": true,
+  "seat1Position": [
+    -0.38,
+    0.5,
+    -0.2
+  ],
+  "seat1RotationY": 0,
+  "seat2Enabled": true,
+  "seat2Position": [
+    0.38,
+    0.3,
+    -0.2
+  ],
+  "seat2RotationY": 0,
+  "seat3Enabled": false,
+  "seat3Position": [
+    0,
+    0,
+    0
+  ],
+  "seat3RotationY": 0,
+  "seat4Enabled": false,
+  "seat4Position": [
+    0,
+    0,
+    0
+  ],
+  "seat4RotationY": 0
+}
