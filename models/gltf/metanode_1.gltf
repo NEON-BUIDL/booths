@@ -1,0 +1,336 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v2.0.5",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2553,
+      "max": [
+        0.26520299911499023,
+        0.44105035066604614,
+        0.10980705916881561
+      ],
+      "min": [
+        -0.23126760125160217,
+        -0.009577644988894463,
+        -0.10744653642177582
+      ],
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 2553,
+      "bufferView": 0,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 2553,
+      "bufferView": 0,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 256,
+      "max": [
+        0.2148265540599823,
+        0.012421026825904846,
+        0.09890106320381165
+      ],
+      "min": [
+        -0.165370374917984,
+        0.0012775692157447338,
+        -0.09281907230615616
+      ],
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 256,
+      "bufferView": 1,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 256,
+      "bufferView": 1,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 346875,
+      "max": [
+        0.2580927908420563,
+        0.16405053436756134,
+        0.24668586254119873
+      ],
+      "min": [
+        -0.24400220811367035,
+        -0.14994630217552185,
+        -0.20771753787994385
+      ],
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 346875,
+      "bufferView": 2,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 346875,
+      "bufferView": 2,
+      "byteOffset": 24
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 9486,
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 384,
+      "bufferView": 3,
+      "byteOffset": 18972
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5125,
+      "count": 1560279,
+      "bufferView": 3,
+      "byteOffset": 19740
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 81696,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 81696,
+      "byteLength": 8192,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 89888,
+      "byteLength": 11100000,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11189888,
+      "byteLength": 6260856,
+      "target": 34963
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "sampler": 0
+    },
+    {
+      "source": 1,
+      "sampler": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "Basecolor_0",
+      "mimeType": "image/jpeg",
+      "uri": "Basecolor_0.jpg"
+    },
+    {
+      "name": "texture_1001",
+      "mimeType": "image/jpeg",
+      "uri": "texture_1001.jpg"
+    }
+  ],
+  "buffers": [
+    {
+      "name": "metanode_1",
+      "byteLength": 17450744,
+      "uri": "metanode_1.bin"
+    }
+  ],
+  "materials": [
+    {
+      "name": "SimplygonCastMaterial",
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.5275590419769287,
+        "metallicFactor": 0.31496065855026245,
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "name": "Material",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.03310142457485199,
+          0.03310142457485199,
+          0.03310142457485199,
+          1
+        ],
+        "roughnessFactor": 0.730708658695221,
+        "metallicFactor": 0.5354331135749817
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    },
+    {
+      "name": "TextureAtlas_1001",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "roughnessFactor": 0.3937007784843445,
+        "metallicFactor": 0.4251968264579773,
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ProcessedGeometry_LOD1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 9
+        },
+        {
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4,
+            "TEXCOORD_0": 5
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 10
+        }
+      ]
+    },
+    {
+      "name": "texturedMesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
+          },
+          "mode": 4,
+          "material": 2,
+          "indices": 11
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "ProcessedMeshNode_LOD1",
+      "mesh": 0
+    },
+    {
+      "name": "texturedMesh",
+      "translation": [
+        0.011628063395619392,
+        0.19613303244113922,
+        0.0025957562029361725
+      ],
+      "rotation": [
+        0.7307710647583008,
+        0.08416552096605301,
+        0.11094352602958679,
+        -0.6682674288749695
+      ],
+      "mesh": 1,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "scene": 0
+}
